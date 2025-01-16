@@ -29,10 +29,9 @@ For example
 7. If there are no links in the text, make at least one link.
 
 8. You can markup the date and possible author like this: <p class="date">12.5.2019</p> or <span class="date">12.5.2019</span>
-
-
-
-
+|
+|
+|
 HTML&CSS assignment
 Objective
 Student will learn:
