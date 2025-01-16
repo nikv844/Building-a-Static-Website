@@ -32,6 +32,12 @@ For example
 |
 |
 |
+.
+.
+.
+.
+.
+.
 HTML&CSS assignment
 Objective
 Student will learn:
