@@ -10,8 +10,7 @@
 
         a {
             color: blue; 
-            text-decoration: none; 
-             
+            text-decoration: none;   
         }
 
         /* Hover state (when the user hovers over the link) */
@@ -38,13 +37,20 @@
         img{
             margin: 8%;
         }
+
+        #hdimg{
+            width: 100%;
+        }
+
         #body{
-            padding-left: 15%;
-            padding-right: 15%;
+            padding-left: 20%;
+            padding-right: 20%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* predefined collection of fonts in vs code for css&html */
+            font-size: 1.2em; /* em = relative size to the parent element */
         }
 
         blockquote{
@@ -53,62 +59,76 @@
             width: 100%;
             text-align: center;
         }
+
     </Style>
 
 </head>
 <body>
-<div id="body">
-    <img src="https://ichef.bbci.co.uk/images/ic/480xn/p0kjvfmy.jpg.webp" alt="Getty Images Human hand print in frosted window (Credit: Getty Images)" >
-    <p>Link Here</p>
-    <p>
-        <a href="https://www.bbc.com">Visit BBC</a>
-    </p>
-    <p>^</p>
+    <div id="body">
+        
+        <img id="hdimg" src="https://ichef.bbci.co.uk/images/ic/480xn/p0kjvfmy.jpg.webp" alt="Getty Images Human hand print in frosted window (Credit: Getty Images)" >
 
-    <h1>A German cryonics start-up is offering a chance at a second life for the cost of a sports car. Is cryogenics within reach, or still an empty promise?</h1>
-    <br />
-    <p>The ambulance parked up by a green in central Berlin is small, almost toy-like; a thick orange stripe across its sides, a tangle of wires looping from the ceiling.</p>
-    
-    <p>It is one of three retrofitted and operated by Tomorrow.Bio, Europe's first cryonics lab, whose mission is to freeze patients after death, and one day bring them back to life, all for a cost of $200,000 (£165,000).</p>
-    
-    <p> perfusion pump is Emil Kendziorra, Tomorrow.Bio's co-founder and a former cancer researcher who switched careers after finding progress in curing the disease "way too slow". While the world's first cryonics lab opened in Michigan almost half a century ago – triggering an enduring split between those who believe it is the future of humanity, and others who dismiss it as a non-starter – Kendziorra says that appetite is building. </p>
-    
-    <p>far they have frozen (or cryopreserved) "three or four" people and five pets, with almost 700 more signed up. During 2025 they will expand their operations to cover the whole of the US.</p>
-    
-    <p>one has ever been successfully revived following cryopreservation, and, even if they were, the potential result could be coming back to life severely brain damaged. That there is currently no proof that organisms with brain structures as complex as humans' can successfully be restored exposes the concept as "preposterous", says Clive Coen, professor of neuroscience at King's College London. He sees pronouncements that nanotechnology (carrying out elements of the process on a nano scale) or connectomics (mapping the brain's neurons) will bridge the current gap between theoretical biology and reality as overpromises, too.</p>
+        <h2>Link Here</h2>
 
-    <img src="https://ichef.bbci.co.uk/images/ic/480xn/p0kjvghj.jpg.webp" alt="Charlotte Lytton The start-up's ambulance is where the cryonics procedure begins after the patient has been declared dead (Credit: Charlotte Lytton)">
+        <p>
+            <a href="https://www.bbc.com">Visit BBC</a> ||
+            <a href="https://www.bbc.com/future/article/20250115-cryonics-the-start-up-that-wants-to-freeze-you-in-suspended-animation">Original Article</a>
+        </p>
+        <p>^</p>
 
-    <p> Such criticisms have not blunted Tomorrow.Bio's ambitions. Once a patient has signed up with the firm and a doctor confirms they are within the final days of their life, the company dispatches an ambulance to their location. When legally pronounced dead, the patient is moved to Tomorrow.Bio's ambulance, where the cryonics procedure begins. The start-up has been motivated by patients whose hearts have stopped in freezing temperatures and then later been restarted again. One example was Anna Bagenholm, who in 1999 spent two hours clinically dead during a ski holiday in Norway, but was later revived.</p>
+        <h1>A German cryonics start-up is offering a chance at a second life for the cost of a sports car. Is cryogenics within reach, or still an empty promise?</h1>
 
-    <p> During the procedure, the bodies are cooled down to sub-zero temperatures, and supplied with cryoprotective fluid.</p>
+        <br />
 
-    <p> "Once you go under zero degrees, you don't want to freeze the body, you want to cryopreserve it. Otherwise, you would have ice crystals everywhere, and the tissue would get destroyed," says Kendziorra, whose firm works both in practical and research areas of cryonics.</p>
+        <p>The ambulance parked up by a green in central Berlin is small, almost toy-like; a thick orange stripe across its sides, a tangle of wires looping from the ceiling.</p>
+        
+        <p>It is one of three retrofitted and operated by <b><u>Tomorrow.Bio</u></b>, Europe's first cryonics lab, whose mission is to freeze patients after death, and one day bring them back to life, all for a cost of $200,000 (£165,000).</p>
+        
+        <p> perfusion pump is Emil Kendziorra, Tomorrow.Bio's co-founder and a former cancer researcher who switched careers after finding progress in curing the disease "way too slow". While the world's first cryonics lab opened in Michigan <b><u>almost half a century ago</u></b> – triggering an enduring split between those who believe it is the future of humanity, and others who dismiss it as a non-starter – Kendziorra says that appetite is building. </p>
+        
+        <p>far they have frozen (or cryopreserved) "three or four" people and five pets, with almost 700 more signed up. During 2025 they will expand their operations to cover the whole of the US.</p>
+        
+        <p>one has ever been successfully revived following cryopreservation, and, even if they were, the potential result could be coming back to life severely brain damaged. That there is currently no proof that organisms with brain structures as complex as humans' can successfully be restored exposes the concept as "preposterous", says Clive Coen, professor of neuroscience at King's College London. He sees pronouncements that nanotechnology (carrying out elements of the process on a nano scale) or connectomics (mapping the brain's neurons) will bridge the current gap between theoretical biology and reality as overpromises, too.</p>
 
-    <p> "To counteract that, you replace all the water, everything that could freeze in the body, with the cryoprotective agent." This is a solution whose primary components are made up of dimethyl sulfoxide (DMSO) and ethylene glycol (used in products like antifreeze). "Once you've done that, you cool down with a very specific cooling curve, very fast, to around -125C degrees (257F), and then very slowly, from -125C to -196C (384.8F)." </p>
+        <img src="https://ichef.bbci.co.uk/images/ic/480xn/p0kjvghj.jpg.webp" alt="Charlotte Lytton The start-up's ambulance is where the cryonics procedure begins after the patient has been declared dead (Credit: Charlotte Lytton)">
 
-    <p> At the latter temperature, the patient is transferred to a storage unit in Switzerland where, Kendziorra says, you "wait it out".</p>
+        <p> Such criticisms have not blunted Tomorrow.Bio's ambitions. Once a patient has signed up with the firm and a doctor confirms they are within the final days of their life, the company dispatches an ambulance to their location. When legally pronounced dead, the patient is moved to Tomorrow.Bio's ambulance, where the cryonics procedure begins. The start-up has been motivated by patients whose hearts have stopped in freezing temperatures and then later been restarted again. One example was <b><u>Anna Bagenholm</u></b>, who in 1999 spent two hours clinically dead during a ski holiday in Norway, but was later revived.</p>
 
-    <p>"The plan," he says, "would be that at some point in the future, the medical technology would have advanced enough so that the cancer [or] whatever led to the patient's death in the first place is curable, and the cryopreservation procedure itself can be reversed."</p>
+        <p> During the procedure, the bodies are cooled down to sub-zero temperatures, and supplied with cryoprotective fluid.</p>
 
-    <p> Whether that happens in 50, 100 or 1,000 years is anyone's guess. "In the end, it doesn't really matter," he says. "As long as you keep the temperature, you can maintain that state for virtually indefinite timeframes."</p>
+        <p> "Once you go under zero degrees, you don't want to freeze the body, you want to cryopreserve it. Otherwise, you would have ice crystals everywhere, and the tissue would get destroyed," says Kendziorra, whose firm works both in practical and research areas of cryonics.</p>
 
-    <br />
+        <p> "To counteract that, you replace all the water, everything that could freeze in the body, with the cryoprotective agent." This is a solution whose primary components are made up of dimethyl sulfoxide (DMSO) and ethylene glycol (used in products like antifreeze). "Once you've done that, you cool down with a very specific cooling curve, very fast, to around -125C degrees (257F), and then very slowly, from -125C to -196C (384.8F)." </p>
 
-    <blockquote>  A lot of stuff that currently is not proven to work might work – just no one has tried it – Emil Kendziorra </blockquote>
+        <p> At the latter temperature, the patient is transferred to a storage unit in Switzerland where, Kendziorra says, you "wait it out".</p>
 
-    <br />
+        <p>"The plan," he says, "would be that at some point in the future, the medical technology would have advanced enough so that the cancer [or] whatever led to the patient's death in the first place is curable, and the cryopreservation procedure itself can be reversed."</p>
 
-    <p>
-    To those outside of cryonics, the notion might sound somewhere between delusional and dystopian. While Kendziorra is "not aware of any reason why it should not be possible in principle", the current tally of humans who have successfully been revived after cryopreservation is zero. Comparative animal studies showing its potential are also lacking. It is now possible to preserve a mouse brain by infusing it with embalming fluid, offering hope that humans' brains could one day too be kept intact for potential future revival – but this process occurs while the animal's heart is still beating, thereby killing it. </p>
+        <p> Whether that happens in 50, 100 or 1,000 years is anyone's guess. "In the end, it doesn't really matter," he says. "As long as you keep the temperature, you can maintain that state for virtually indefinite timeframes."</p>
 
-    <p>
-    Kendziorra says that resistance is mostly down to how strange the notion of bringing someone back from the dead seems, but that most medical procedures are eyed with suspicion before they become mainstream. "Taking one heart and putting it into another human, at first sight sounds very weird," he says of organ transplantation, "but we do it every day." He believes cryonics could simply be another to add to that list. </p>
+        <br />
+        <h3>Blockquote here</h3>
+        <br />
+        <blockquote> <i>A lot of stuff that currently is not proven to work might work – just no one has tried it – Emil Kendziorra</i> </blockquote>
 
+        <br />
 
+        <p>
+        To those outside of cryonics, the notion might sound somewhere between delusional and dystopian. While Kendziorra is "not aware of any reason why it should not be possible in principle", the current tally of humans who have successfully been revived after cryopreservation is zero. Comparative animal studies showing its potential are also lacking. It is now possible to <b><u>preserve a mouse brain</u></b> by infusing it with embalming fluid, offering hope that humans' brains could one day too be kept intact for potential future revival – but this process occurs while the animal's heart is still beating, thereby killing it. </p>
 
+        <p>
+        Kendziorra says that resistance is mostly down to how strange the notion of bringing someone back from the dead seems, but that most medical procedures are eyed with suspicion before they become mainstream. "Taking one heart and putting it into another human, at first sight sounds very weird," he says of organ transplantation, "but we do it every day." He believes cryonics could simply be another to add to that list.
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</div>
+        <p>The article continues....</p>
+        
+        </p>
+        
+        <hr style="width: 80%; border-top: 3px solid black;">
+
+        <footer><p>&copy; 2025 Nikhil</p></footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+    <hr>
 </body>
 </html>
